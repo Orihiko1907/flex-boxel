@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-color: pink;
+}
+
+p {
+  background-color: palevioletred;
+}
+
+.container-1 {
+  display: flex;
+  border: solid rgb(5, 80, 137);
+  justify-content: center;
+}
+
+.item {
+  background-color: aquamarine;
+  border: solid black;
+}
+
+section {
+  margin: 10px 0;
+}
+
+.container-2 {
+  border: solid rgb(5, 80, 137);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-3 {
+  border: solid rgb(5, 80, 137);
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-4 {
+  border: solid rgb(5, 80, 137);
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-5 {
+  border: solid rgb(5, 80, 137);
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */

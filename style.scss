@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+//para o corpo todo
+body{
+    margin: 20px;
+    background-color: pink;
+}
+
+p{
+    background-color: palevioletred;
+}
+    //propriedade display flex;
+    //coloca todos os filhos um ao lado do outro;
+    //justfy-content -ele vai alinhar no eixo x;
+.container-1 {
+    display: flex;
+    border: solid rgb(5, 80, 137);
+    justify-content: center;
+}
+
+.item{
+    background-color: aquamarine;
+    border: solid black;
+}
+
+section{
+    margin: 10px 0;
+}
+
+.container-2{
+    border: solid rgb(5, 80, 137);
+    display: flex;
+    justify-content: flex-end;//alinhar ao final
+}
+
+.container-3{
+    border: solid rgb(5, 80, 137);
+    display: flex;
+    justify-content: space-around;
+    //space-around ~espaço ao redor
+}
+
+.container-4{
+    border: solid rgb(5, 80, 137);
+    display: flex;
+    justify-content: space-between;
+    //space-betwen -espaço entre a tag
+}
+
+.container-5{
+    border: solid rgb(5, 80, 137);
+    display: flex;
+    justify-content: space-evenly;
+    //
+}
